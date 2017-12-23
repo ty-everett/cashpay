@@ -1,0 +1,45 @@
+body {
+	background-color:#111111;
+	color:#997799;
+	font-family:helvetica;
+	padding:0em;
+	margin:0em;
+}
+.content {
+	background-color:black;
+	width:80%;
+	border-radius:1em;
+	border:1px solid #997799;
+	margin-top:1em;
+	text-align:center;
+	align:center;
+	color:#997799;
+	padding:1em;
+}
+.logoimage {
+	width:20%;
+}
+.loadingimage {
+	width:30%;
+	margin-bottom:-2em;
+	margin-top:-2em;
+	animation-name:loading;
+	animation-iteration-count:infinite;
+	animation-duration:1.2s;
+}
+@-webkit-keyframes loading {
+	from {
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
+}
+.address-text {
+	background-color:#111111;
+	border-radius:0em;
+	border:1px solid #997799;
+	color:#997799;
+	padding:0.5em;
+	font-family:monospace;
+}
